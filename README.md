@@ -1,4 +1,5 @@
-欢迎点进来，想必读者对时序数据库有些了解了。（[opentsdb官网:http://opentsdb.net/overview.html](http://opentsdb.net/overview.html)）
+[opentsdb官网:http://opentsdb.net/overview.html](http://opentsdb.net/overview.html) 
+欢迎关注[我的简书](https://www.jianshu.com/u/224f57c4918e)
     OpenTSDB是一个基于HBase的分布式、可伸缩的开源时序数据库。OpenTSDB由TSD（Time Series Daemon）和一系列命令行工具组成。TSD用于接收用户请求并将时序数据存储在HBase中。TSD之间是相互独立的，没有master，也没有共享状态，因此可以根据系统的负载情况任意进行扩展。下图是一个基于OpenTSDB的监控系统架构图（来自官方文档）
 
 ![image.png](https://upload-images.jianshu.io/upload_images/14788851-49055ba9d883e66d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
